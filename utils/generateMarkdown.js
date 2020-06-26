@@ -1,6 +1,6 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  const {title, projectDescription, userInstructions, command, testCommand, licenseChoices, email, username, userContribution } = data
+  const {title, projectDescription, userInstructions, command, testCommand, licenseChoices, email, username, userContribution, licenseLink } = data
   return `# ${title}
 
   ![License](${licenseChoices})
@@ -36,7 +36,8 @@ function generateMarkdown(data) {
 
 
   ## License
-  
+  ![License](${licenseChoices})
+  [Here is a link to the license](${licenseLink})
 
 
   ## Contributing

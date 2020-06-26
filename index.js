@@ -53,6 +53,11 @@ const questions = inquirer.prompt( [{
 },
 {
     type: "input",
+    name: "licenseLink",
+    message: "Please provide a link to the license you want to use:"
+},
+{
+    type: "input",
     name: "command",
     message: "What command should be run to install dependencies?",
     default: "npm i"

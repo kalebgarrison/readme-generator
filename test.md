@@ -1,10 +1,10 @@
-# readme
+# README Generator 
 
   ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 
   ## Description
-  generatres
+  This allows you to generate a readme through the command line
 
 
 
@@ -29,15 +29,16 @@
 
 
   ## Usage
-  test
+  Clone the repo and then run 'node index.js' in the command line
 
 
   ## License
-  
+  ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+  [Here is a link to the license](https://opensource.org/licenses/MIT)
 
 
   ## Contributing
-  test
+  No contributions needed
 
 
   ## Tests
