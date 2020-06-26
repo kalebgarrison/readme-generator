@@ -1,10 +1,9 @@
 const fs = require('fs');
 const inquirer = require("inquirer");
 const generateMarkdown = require('./utils/generateMarkdown');
-// console.log(fs)
-// console.log(inquirer)
 
-// array of questions for user
+
+// array of questions for user & inquirer prompt
 const questions = inquirer.prompt( [{
     type: "input",
     name: "username",
@@ -80,24 +79,15 @@ const questions = inquirer.prompt( [{
 }
 ])
 .then((data) => {
-    console.log(data)
-    writeToFile('Sample-README/kaleb.md', data)
+    writeToFile('Sample-README/GeneratedREADME.md', data)
 })
 // function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile('Sample-README/kaleb.md', generateMarkdown(data), function (err){
-        // console.log(data.name.projectDescription)
+    fs.writeFile('Sample-README/GeneratedREADME.md', generateMarkdown(data), function (err){
         if (err) {console.log(err.message)}
-        else {console.log("Story ")}
+        else {console.log("Generating README file...")}
     })
 }
 
 
 
-// // function to initialize program
-// function init() {
-
-// }
-
-// // function call to initialize program
-// init();
