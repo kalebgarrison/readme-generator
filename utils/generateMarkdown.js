@@ -49,7 +49,7 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  ${username}
+ Here is a link to my [GitHub profile](https://github.com/${username})
 
   If you have any questions please reach out to me here at: ${email}
 `;

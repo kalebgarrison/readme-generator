@@ -1,9 +1,10 @@
-# test
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+# readme
+
+  ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 
   ## Description
-  test
+  generatres
 
 
 
@@ -24,11 +25,11 @@
   ## Installation
 
   To install necessary dependencies, run the following command:
-  test
+  npm i
 
 
   ## Usage
-  tes
+  test
 
 
   ## License
@@ -40,11 +41,11 @@
 
 
   ## Tests
-  test
+  npm test
 
 
   ## Questions
 
-  test
+ Here is a link to my [GitHub profile](https://github.com/kalebgarrison)
 
-  If you have any questions please reach out to me here at: test
+  If you have any questions please reach out to me here at: kalebgarrison@gmail.com
