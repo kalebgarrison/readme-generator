@@ -53,6 +53,11 @@ const questions = inquirer.prompt( [{
 },
 {
     type: "input",
+    name: "licenseLink",
+    message: "Please provide a link to the license you want to use:"
+},
+{
+    type: "input",
     name: "command",
     message: "What command should be run to install dependencies?",
     default: "npm i"
@@ -76,11 +81,11 @@ const questions = inquirer.prompt( [{
 ])
 .then((data) => {
     console.log(data)
-    writeToFile('test.md', data)
+    writeToFile('Sample-README/kaleb.md', data)
 })
 // function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile('test.md', generateMarkdown(data), function (err){
+    fs.writeFile('Sample-README/kaleb.md', generateMarkdown(data), function (err){
         // console.log(data.name.projectDescription)
         if (err) {console.log(err.message)}
         else {console.log("Story ")}
